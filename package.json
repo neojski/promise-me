@@ -1,0 +1,14 @@
+{
+  "name": "promiseme",
+  "version": "0.0.1",
+  "description": "Simple implementation of Promises/A+",
+  "author": "Tomasz Kołodziejski <tkolodziejski@gmail.com>",
+  "licence": "MIT",
+  "main": "promiseme.js",
+  "devDependencies": {
+    "promises-aplus-tests": "~1.3.2"
+  },
+  "scripts": {
+    "test": "promises-aplus-tests test/adapter"
+  }
+}
