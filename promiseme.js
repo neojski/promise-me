@@ -16,7 +16,6 @@ var promiseme = {
         return d.promise;
       }
     };
-
     function process(type, data) {
       setTimeout(function() {
         for (var i = 0; i < callbacks.length; i++) {
@@ -53,7 +52,6 @@ var promiseme = {
     };
   }
 };
-
 if (module && module.exports) {
   module.exports = promiseme;
 }
