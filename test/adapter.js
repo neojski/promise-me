@@ -1,4 +1,4 @@
-var deferred = require('../promiseme.js');
+var deferred = require('../promiseme.js').deferred;
 module.exports = {
   fulfilled: function(value){
     var d = deferred();
